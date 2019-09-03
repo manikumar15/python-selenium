@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-browser = webdriver.Chrome("C:\\Users\\mani\\Desktop\\selenium\\drivers\\chromedriver.exe")
+browser = webdriver.Chrome("path of chromedriver.exe") #path of the chrome driver
 browser.get('https://www.google.com/')
 
 search = browser.find_elements_by_css_selector("input[name=q]")
